@@ -1,4 +1,3 @@
-from itertools import starmap
 import codewars_test as test
 
 
