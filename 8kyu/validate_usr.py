@@ -5,8 +5,8 @@ import re
 def validate_usr(username: str) -> bool:
     return bool(re.match('^[a-z0-9_]{4,16}$', username))
 
-def validate_usr(username: str) -> bool:
-    return bool(re.fullmatch('[a-z0-9_]{4,16}', username))
+# def validate_usr(username: str) -> bool:
+#     return bool(re.fullmatch('[a-z0-9_]{4,16}', username))
 
 
 @test.describe("Fixed Tests")
